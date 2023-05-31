@@ -225,7 +225,30 @@ h4{
 position: absolute;
 width: 500px;
 height: 490px;
-left: 780px;
-top: 86px;
+left: 826px;
+top: 112px;
+
+}
+
+@media (max-width:768px){
+
+    body {
+        
+        
+
+
+
+    }
+
+    .menina{
+        left: 1px;
+        width: 1px;
+
+
+    }
+
+    .direito{
+        left: 1px;
+    }
 
 }
