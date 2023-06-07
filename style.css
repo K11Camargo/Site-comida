@@ -47,7 +47,7 @@ h1{
 
 .direito{
 
-    margin-left: 13cm;
+    margin-left: 60%;
     display: flex;
     gap: 30px;
     
@@ -142,14 +142,19 @@ h4{
 
 }
 
+.botoes{
 
+    display: flex;
+    gap: 6%;
+    margin-left: 4%;
+    margin-top: -510px;
+
+}
 
 .Cadastrar{
 
-    margin-top: 2cm;
-    margin-left: 2cm;
-    display: inline-grid;
-    background-color: red;
+        display: inline-grid;
+    background-color: #E41A22;
     height: 8vh;
     width: 23vh;
     align-items: center;
@@ -174,10 +179,9 @@ h4{
 .Entrar{
 
     font-size: 30px;
-    margin-top: 2cm;
-    margin-left: 2cm;
+
     display: inline-grid;
-    background-color: red;
+    background-color: #E41A22;
     height: 8vh;
     width: 23vh;
     align-items: center;
@@ -197,16 +201,17 @@ h4{
 
 .cardapio{
 
-    margin-top: 1cm;
-    margin-left: 175px;
+  
     height: 8vh;
     width: 23vh;
     display: grid;
-    background-color: red;
+    background-color: #E41A22;
     text-align: center;
     align-items: center;
     font-family: 'Lavishly Yours', cursive;
     font-weight: 580;
+    margin-left: 13%;
+    margin-top: 2%;
 
     
 }
@@ -222,11 +227,10 @@ h4{
 
 .menina{
 
-position: absolute;
-width: 500px;
-height: 490px;
-left: 826px;
-top: 112px;
+margin-left: 69.8%;
+margin-top: 89px;
+margin-inline-end: 0%;
+
 
 }
 
@@ -234,21 +238,86 @@ top: 112px;
 
     body {
         
-        
-
-
-
+        display: grid;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-template-rows: 125px 1fr 125px;
+        backdrop-filter: blur(3px);
     }
 
     .menina{
-        left: 1px;
-        width: 1px;
-
+      width: 380px;   
+     position: relative;
+     margin-left: 388px;
+     margin-top: 145px;
 
     }
 
     .direito{
-        left: 1px;
+        margin-left: 330px;
+        flex-direction: column;
+
+
+    }
+    .cardapio{
+
+        margin-top: 150%;
     }
 
+    .Subtitulo{
+        margin-left: 30%;
+        margin-top: 30%;      
+        
+        
+        
+    }
+
+    .botoes{
+        margin-top: 0px;
+        display: grid;
+        margin-block: -320px;
+        gap: 40px;
+
+    }
+
+    .Entrar{
+
+        font-size: 30px;
+        display: inline-grid;
+        background-color: #E41A22;
+        height: 5vh;
+        width: 30vh;
+        align-items: center;
+        text-align: center;
+        font-family: 'Lavishly Yours', cursive;
+        font-weight: 580;
+    }
+
+    .Cadastrar{
+        
+        font-size: 30px;
+        background-color: #E41A22;
+        height: 5vh;
+        width: 30vh;
+        align-items: center;
+        text-align: center;
+        font-family: 'Lavishly Yours', cursive;
+        font-weight: 580;
+        gap: 40px;
+
+    }
+
+    .cardapio{
+        margin-top: 360px;
+        background-color: #E41A22;
+        height: 5vh;
+        width: 30vh;
+        margin-left: 4%;
+        font-family: 'Lavishly Yours', cursive;
+        font-size: 30px;
+        font-weight: 580;
+
+ 
+    }
 }
